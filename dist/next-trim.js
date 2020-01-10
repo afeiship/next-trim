@@ -3,17 +3,14 @@
  * description: Trim space or customize string.
  * url: https://github.com/afeiship/next-trim
  * version: 1.0.0
- * date: 2020-01-10 15:08:36
+ * date: 2020-01-10 15:08:53
  * license: MIT
  */
 
 (function() {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
-  var cache = {
-    head: {},
-    tail: {}
-  };
+  var cache = { head: {}, tail: {} };
 
   nx.trim = function(inStr, inChar) {
     if (!inStr) return inStr;
