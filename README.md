@@ -10,5 +10,16 @@ npm install -S @feizheng/next-trim
 ```js
 import '@feizheng/next-trim';
 
-//DOCS here!
+//1. trim space:
+nx.trim('  abc');
+nx.trim('  abc  ');
+nx.trim('abc  ');
+
+// abc
+
+// 2.trim char
+nx.trim('/sso-login.html','/');
+nx.trim('//sso-login.html','/');
+
+// sso-login.html
 ```
