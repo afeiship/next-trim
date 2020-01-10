@@ -2,8 +2,8 @@
  * name: @feizheng/next-trim
  * description: Trim space or customize string.
  * url: https://github.com/afeiship/next-trim
- * version: 1.0.0
- * date: 2020-01-10 15:08:53
+ * version: 1.0.2
+ * date: 2020-01-10 15:22:46
  * license: MIT
  */
 
