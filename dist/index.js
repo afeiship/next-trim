@@ -3,7 +3,7 @@
  * description: Trim space or customize string.
  * homepage: https://github.com/afeiship/next-trim
  * version: 1.0.0
- * date: 2020-11-22 18:07:41
+ * date: 2020-11-22 18:08:33
  * license: MIT
  */
 
